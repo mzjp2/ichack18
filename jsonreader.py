@@ -8,7 +8,6 @@ import json
 
 
 with open('api_keys.json', 'r') as f:
-	#json.dump(data, f)
 	data = json.load(f)
 
 
