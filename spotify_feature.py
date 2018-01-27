@@ -5,4 +5,13 @@ client_credentials_manager = SpotifyClientCredentials(client_id=jsonreader.spoti
 sp = spotipy.Spotify(client_credentials_manager=client_credentials_manager)
 
 def dumpFeatures(track_list):
+
 	for track in track_list:
+		
+		features = sp.audio_features(track)
+		with open('features/' + track + '_features.json', 'w') as outfile:
+			json.dump(features, outfile, indent=4)
+
+	return None
+
+dumpFeatures(['5CtI0qwDJkDQGwXD1H1cLb'])
