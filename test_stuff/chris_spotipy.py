@@ -33,4 +33,9 @@ f.close()
 
 
 
-#print(sp.recommendations(seed_tracks=['5CtI0qwDJkDQGwXD1H1cLb']))
+print(len(sp.recommendations(seed_tracks=['5CtI0qwDJkDQGwXD1H1cLb'])))
+
+print(type(sp.recommendations(seed_tracks=['5CtI0qwDJkDQGwXD1H1cLb'])))
+
+
+print(sp.recommendations(seed_tracks=['5CtI0qwDJkDQGwXD1H1cLb']).keys())
