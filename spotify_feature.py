@@ -15,10 +15,10 @@ def generateGenre(spot_tags):
 
 # generate recommended list based on genre
 
-def recommendedList(genre):
-	recommendations_dict = sp.recommendations(seed_genres = [genre], limit = 100)
+def recommendedList(genre, limit=10):
+	recommendations_dict = sp.recommendations(seed_genres = [genre], limit = limit)
 	data_list = recommendations_dict['tracks']
-	track_list = [0] * 100
+	track_list = [0] * limit
 	i=0
 	for d_point in data_list:
 		track_list[i] = d_point['id']
@@ -28,9 +28,9 @@ def recommendedList(genre):
 	return track_list
 # takes in track_list (list of tracks) and outputs json features of the track
 
-def dumpFeatures(track_list):
+def dumpFeatures(track_list, limit=10):
 
-	features = [0] * 100
+	features = [0] * limit
 	i = 0
 	for track_id in track_list:
 		features[i] = sp.audio_features(track_id)
@@ -38,8 +38,21 @@ def dumpFeatures(track_list):
 	#	track_name = sp.track(track_id)['name']
 	return features
 
-genre = generateGenre(spot_tags)
-track_list = recommendedList(genre)
-feature = dumpFeatures(track_list)
-print(feature)
+def averageTags(tracks_features_list):
+	"""
+	Getting list from sp.recommendations()
+	Returning average value of the wanted tags
+	"""
 
+	tag_values = {"danceability": 0,"energy": 0, "acousticness": 0,"instrumentalness": 0,"liveness": 0,"valence": 0,"tempo": 0,}
+	for track in tracks_features_list:
+		pass
+
+	return 0
+
+if __name__ == '__main__':
+	genre = generateGenre(spot_tags)
+	track_list = recommendedList(genre)
+	feature = dumpFeatures(track_list)
+	averaged_tag = averageTags(feature)
+	print(averaged_tag)
