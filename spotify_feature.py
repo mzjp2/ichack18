@@ -6,10 +6,11 @@ sp = spotipy.Spotify(client_credentials_manager=client_credentials_manager)
 
 def dumpFeatures(track_list):
 
-	for track in track_list:
-		
-		features = sp.audio_features(track)
-		with open('features/' + track + '_features.json', 'w') as outfile:
+	for track_id in track_list:
+
+		features = sp.audio_features(track_id)
+		track_name = sp.track(track_id)['name']
+		with open('features/' + track_name + '_features.json', 'w') as outfile:
 			json.dump(features, outfile, indent=4)
 
 	return None
