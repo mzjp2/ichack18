@@ -7,5 +7,9 @@ sp = spotipy.Spotify(client_credentials_manager=client_credentials_manager)
 
 
 data = sp.recommendations(seed_genres=['piano'], limit = 20)
-data_1 = data['tracks']
-print(data)
+data_list = data['tracks']
+
+
+
+for d_point in data_list:
+	print(d_point['id'], i)
