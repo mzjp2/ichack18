@@ -10,8 +10,16 @@ despacito = '5CtI0qwDJkDQGwXD1H1cLb'
 
 uri = ''
 anal = sp.audio_features('5CtI0qwDJkDQGwXD1H1cLb')
-#print(anal)
+
+
+f = open('spotify_tags.txt', 'w')
+
+for key in anal[0].keys():
+	f.write(key + "\n")
+
+f.close()
+
 
 #print(sp.recommendation_genre_seeds())
 
-print(sp.recommendations(seed_tracks=['5CtI0qwDJkDQGwXD1H1cLb']))
+#print(sp.recommendations(seed_tracks=['5CtI0qwDJkDQGwXD1H1cLb']))
