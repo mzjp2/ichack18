@@ -3,7 +3,8 @@ import http.client, urllib.request, urllib.parse, urllib.error, base64
 import jsonreader
 import requests
 
-CONF_THRESHOLD = 
+CONF_THRESHOLD = 0.2 # Confidence threshold for accepting a tag
+SCORE_THRESHOLD = 0.0 # Score threshold for accepting a category
 
 def get_image_tags(image_path):
 	headers = {
@@ -24,7 +25,7 @@ def get_image_tags(image_path):
 			params = params,
 			data = image)
 		data = response.json()
-		print(data)
+		#print(data)
 		#return data;
 	except Exception as e:
 		print("[Errno {0}] {1}".format(e.errno, e.strerror))
@@ -32,10 +33,15 @@ def get_image_tags(image_path):
 
 	# Make data nice and easily readable :)
 	# Because I am a nice person :)
-	
+	nice_data = {"tags": [img_object['name'] for img_object in data['tags'] 
+						  if img_object['confidence'] >= CONF_THRESHOLD],
+				 "categories": [img_category['name'] for img_category in data['categories']
+				 			    if img_category['score'] >= SCORE_THRESHOLD],
+				 "colors": data['color']['dominantColors']}
 
+	return nice_data
 
 if __name__ == "__main__":
-	get_image_tags("/home/joe/sea_test.jpg")
+	print(get_image_tags("/home/joe/sea_test.jpg"))
 
 
