@@ -15,3 +15,4 @@ spotify_client_id = data['spotify']['client_id']
 spotify_client_key = data['spotify']['client_key']
 
 mscv_key =  data['microsoft']['api_key']
+mslang_key = data['microsoft']['lang_key']
