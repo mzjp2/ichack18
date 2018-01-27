@@ -6,6 +6,6 @@ client_credentials_manager = SpotifyClientCredentials(client_id=jsonreader.spoti
 sp = spotipy.Spotify(client_credentials_manager=client_credentials_manager)
 
 
-uri = ''
-anal = sp.audio_features('5CtI0qwDJkDQGwXD1H1cLb')
-print(anal)
+data = sp.recommendations(seed_genres=['piano'], limit = 20)
+data_1 = data['tracks']
+print(data)
