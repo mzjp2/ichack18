@@ -1,0 +1,25 @@
+{"tags":
+	{"ocean":
+		["danceability": 0.4,
+		 "energy": 0.5,
+		 "loudness": 0.5,
+		 "acousticness": 0.8,
+		 "instrumentalness": 0.9,
+		 "liveness": 0.5,
+		 "valence": 0.7,
+		 "tempo": 0.6],
+	"nature":
+		["danceability": 0.4,
+		 "energy": 0.5,
+		 "loudness": 0.5,
+		 "acousticness": 0.8,
+		 "instrumentalness": 0.9,
+		 "liveness": 0.5,
+		 "valence": 0.7,
+		 "tempo": 0.6],
+	},
+"categories":
+	{},
+"colors":
+	{}
+}
