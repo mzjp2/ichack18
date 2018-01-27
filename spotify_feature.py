@@ -44,11 +44,18 @@ def averageTags(tracks_features_list):
 	Returning average value of the wanted tags
 	"""
 
+
 	tag_values = {"danceability": 0,"energy": 0, "acousticness": 0,"instrumentalness": 0,"liveness": 0,"valence": 0,"tempo": 0,}
 	for track in tracks_features_list:
-		pass
+		for key in tag_values.keys():
+			tag_values[key] += track[0][key]
 
-	return 0
+	l = float(len(tracks_features_list))
+
+	for key in tag_values.keys():
+		tag_values[key] = tag_values[key] / l
+
+	return tag_values
 
 if __name__ == '__main__':
 	genre = generateGenre(spot_tags)
