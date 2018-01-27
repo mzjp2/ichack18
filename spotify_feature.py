@@ -42,3 +42,4 @@ genre = generateGenre(spot_tags)
 track_list = recommendedList(genre)
 feature = dumpFeatures(track_list)
 print(feature)
+
