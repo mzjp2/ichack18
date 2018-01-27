@@ -1,5 +1,5 @@
 {"weights": {
-	"bicycle":
+	"bicycle": ["happy", ""]
 	{"happy": 0.9,
 	"sad": 0.2,
 	"energetic": 1.0},
@@ -8,5 +8,5 @@
 	"sad": 0.5,
 	"energetic": 0.3}
 	}
-"moods": ["happy", "sad", "energetic"]
+"moods": []
 }
