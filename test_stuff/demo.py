@@ -45,5 +45,6 @@ try:
 	print(data)
 	with open('output/' + person + '.txt', 'w') as outfile: json.dump(data, outfile)
 
-except Exception as e:
-	print("[Errno {0}] {1}".format(e.errno, e.strerror))
+
+
+
