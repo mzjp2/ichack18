@@ -18,8 +18,6 @@ def generateGenre(spot_tags):
 	f = json.load(infile)
 
 
-
-
 	genres_nparrays = {}
 	for genre in f.keys():
 		spot_tags_arr = []
@@ -120,8 +118,7 @@ if __name__ == '__main_':
 
 	joes_tags = {"danceability":0.5035, "energy": 0.3688, "acousticness":0.61967, "instrumentalness": 0.015, "liveness": 0.189796, "valence": 0.36, "tempo":117.2}
 	print(generateGenre(joes_tags))
-
-if __name__ == '__main__':
+	
 	image = 'room.jpg'
 	curr_img_tags = get_image_tags(image)
 	spot_tags = tag_to_mood(curr_img_tags)
