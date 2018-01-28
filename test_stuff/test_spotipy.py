@@ -3,7 +3,7 @@ from spotipy.oauth2 import SpotifyClientCredentials
 import spotipy.util as util
 
 scope = 'playlist-read-private playlist-modify-private playlist-read-collaborative'
-username = 'cl1zn6lqeumrukzr0il0j2j24'
+username = 'zain.patel6'
 
 token = util.prompt_for_user_token(username, scope, 
 									client_id=jsonreader.spotify_client_id,
@@ -28,4 +28,7 @@ def playlistAdd(created_playlist_id, tracks_list):
 	user_playlist_add_tracks(username, created_playlist_id, tracks_list)
 	return None
 
-	
+if __name__ == '__main__':
+	playlistCreate()
+
+
