@@ -42,6 +42,6 @@ def get_image_tags(image_path):
 	return nice_data
 
 if __name__ == "__main__":
-	print(get_image_tags("/home/joe/sea_test.jpg"))
+	print(get_image_tags("/home/joe/sea_test.jpg")["tags"])
 
 

@@ -1,5 +1,5 @@
-“tag”,“danceability”,“energy”,“loudness”,“acousticness”,“instrumentalness”,“liveness”,“valence”,“tempo”
-“ocean”,0.2,0.5,0.3,0.8,0.9,0.5,0.7,0.6
-“nature”,0.5,0.6,0.5,0.9,0.9,0.8,0.7,0.6
-“outdoor”,0.6,0.6,0.5,0.6,0.6,0.5,0.5,0.7
-“lawn”,0.6,0.8,0.4,0.7,0.6,0.7,0.7,0.7
+tag,danceability,energy,loudness,acousticness,instrumentalness,liveness,valence,tempo
+ocean,0.2,0.5,0.3,0.8,0.9,0.5,0.7,0.6
+nature,0.5,0.6,0.5,0.9,0.9,0.8,0.7,0.6
+outdoor,0.6,0.6,0.5,0.6,0.6,0.5,0.5,0.7
+lawn,0.6,0.8,0.4,0.7,0.6,0.7,0.7,0.7
