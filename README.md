@@ -35,4 +35,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 ## Acknowledgments
 
 * Get zain to put whomstever 
-* DoCSoc for hosting ICHack18
+* [José Manuel Pérez](https://codepen.io/jmperez/pen/MmwObE)
