@@ -80,5 +80,41 @@
 		},
 	"train_interior.jpg": {
 		"song_ids": {"2XQSgmtEY2titXhfY414dy": {}}
-		}
+		},
+	"farm.jpg": {
+		"song_ids": {"6K1sUckiJLXhsyte2yNFTQ": {}}
+	},
+	"fireworks.jpg": {
+		"song_ids": {"3MrRksHupTVEQ7YbA0FsZK": {}}
+	},
+	"canary_wharf.jpg": {
+		"song_ids": {"09opLVMX7cfKVKlP3iKZR1": {}}
+	},
+	"restaraunt.jpg": {
+		"song_ids": {"0XTT6PvSOr277rofOPecQx": {}}
+	},
+	"study.jpg": {
+		"song_ids": {"1QGN2Perfetpju3762mJsk": {}}
+	},
+	"common_room.jpg": {
+		"song_ids": {"7fcgisGFCr4mfbfNSztr84": {}}
+	},
+	"dj.jpg": {
+		"song_ids": {"57p8CBvPOxrvyCbn6ttl5r": {}}
+	},
+	"fruit.jpg": {
+		"song_ids": {"3WXfQDsASfXrSojk9WB3aR": {}}
+	},
+	"hike.jpg": {
+		"song_ids": {"644es5aYPJghtZLjM1rmSP": {}}
+	},
+	"desert.jpg": {
+		"song_ids": {"7BR7BFM7On7jFyY9LbiVbO": {}}
+	},
+	"snow.jpg": {
+		"song_ids": {"1UpbJGEv4OFGSQpOCXcCHh": {}}
+	},
+	"cruise_ship.jpg": {
+		"song_ids": {"3RlsVPIIs5KFhLFhxZ4iDF": {}}
+	}
 }

@@ -9,35 +9,55 @@
         "tempo": 160.02,
         "valence": 0.943
     },
+    "animal": {
+        "acousticness": 0.0186,
+        "danceability": 0.62,
+        "energy": 0.639,
+        "instrumentalness": 0.00011,
+        "liveness": 0.206,
+        "loudness": -5.398,
+        "tempo": 119.055,
+        "valence": 0.34
+    },
+    "apple": {
+        "acousticness": 0.172,
+        "danceability": 0.642,
+        "energy": 0.7,
+        "instrumentalness": 0.000232,
+        "liveness": 0.0895,
+        "loudness": -9.213,
+        "tempo": 103.899,
+        "valence": 0.784
+    },
     "area": {
-        "acousticness": 0.46508499999999997,
-        "danceability": 0.47775,
-        "energy": 0.49975,
-        "instrumentalness": 0.29075,
-        "liveness": 0.1154,
-        "loudness": -13.5855,
-        "tempo": 148.65324999999999,
-        "valence": 0.218125
+        "acousticness": 0.394668,
+        "danceability": 0.48,
+        "energy": 0.5227999999999999,
+        "instrumentalness": 0.232600882,
+        "liveness": 0.12352,
+        "loudness": -12.3054,
+        "tempo": 146.5236,
+        "valence": 0.26570000000000005
     },
     "bar": {
         "acousticness": 0.541785,
-        "danceability": 0.4405,
-        "energy": 0.399775,
+        "danceability": 0.44050000000000006,
+        "energy": 0.39977499999999994,
         "instrumentalness": 0.44077500000000003,
         "liveness": 0.102525,
         "loudness": -17.264,
         "tempo": 149.40449999999998,
-        "valence": 0.34187500000000004
+        "valence": 0.341875
     },
     "beach": {
-        "acousticness": 0.3607666666666667,
-        "danceability": 0.501,
-        "energy": 0.703,
-        "instrumentalness": 4.358333333333333e-05,
-        "liveness": 0.11299999999999999,
-        "loudness": -5.845666666666666,
-        "tempo": 150.767,
-        "valence": 0.5516666666666666
+        "acousticness": 0.450575,
+        "danceability": 0.40975000000000006,
+        "energy": 0.59125,
+        "instrumentalness": 0.20678268749999998,
+        "liveness": 0.11474999999999999,
+        "loudness": -7.8735,
+        "tempo": 155.03175,
+        "valence": 0.42717499999999997
     },
     "bed": {
         "acousticness": 0.0105,
@@ -79,15 +99,45 @@
         "tempo": 160.02,
         "valence": 0.943
     },
+    "boat": {
+        "acousticness": 0.0459,
+        "danceability": 0.616,
+        "energy": 0.91,
+        "instrumentalness": 0.0,
+        "liveness": 0.343,
+        "loudness": -3.004,
+        "tempo": 144.073,
+        "valence": 0.693
+    },
     "book": {
-        "acousticness": 0.995,
-        "danceability": 0.398,
-        "energy": 0.00293,
-        "instrumentalness": 0.922,
-        "liveness": 0.0897,
-        "loudness": -29.481,
-        "tempo": 130.464,
-        "valence": 0.0804
+        "acousticness": 0.9944999999999999,
+        "danceability": 0.35050000000000003,
+        "energy": 0.055465,
+        "instrumentalness": 0.8995,
+        "liveness": 0.08510000000000001,
+        "loudness": -28.457,
+        "tempo": 128.6975,
+        "valence": 0.13019999999999998
+    },
+    "bovine": {
+        "acousticness": 0.0186,
+        "danceability": 0.62,
+        "energy": 0.639,
+        "instrumentalness": 0.00011,
+        "liveness": 0.206,
+        "loudness": -5.398,
+        "tempo": 119.055,
+        "valence": 0.34
+    },
+    "bowl": {
+        "acousticness": 0.172,
+        "danceability": 0.642,
+        "energy": 0.7,
+        "instrumentalness": 0.000232,
+        "liveness": 0.0895,
+        "loudness": -9.213,
+        "tempo": 103.899,
+        "valence": 0.784
     },
     "brick": {
         "acousticness": 0.515,
@@ -139,6 +189,16 @@
         "tempo": 101.785,
         "valence": 0.039
     },
+    "cattle": {
+        "acousticness": 0.0186,
+        "danceability": 0.62,
+        "energy": 0.639,
+        "instrumentalness": 0.00011,
+        "liveness": 0.206,
+        "loudness": -5.398,
+        "tempo": 119.055,
+        "valence": 0.34
+    },
     "ceiling": {
         "acousticness": 0.369535,
         "danceability": 0.43125,
@@ -146,7 +206,7 @@
         "instrumentalness": 0.715,
         "liveness": 0.108425,
         "loudness": -13.02175,
-        "tempo": 148.0715,
+        "tempo": 148.07150000000001,
         "valence": 0.353375
     },
     "chair": {
@@ -179,6 +239,26 @@
         "tempo": 128.0,
         "valence": 0.809
     },
+    "computer": {
+        "acousticness": 0.0079,
+        "danceability": 0.653,
+        "energy": 0.91,
+        "instrumentalness": 0.0,
+        "liveness": 0.318,
+        "loudness": -3.36,
+        "tempo": 126.047,
+        "valence": 0.0921
+    },
+    "cow": {
+        "acousticness": 0.0186,
+        "danceability": 0.62,
+        "energy": 0.639,
+        "instrumentalness": 0.00011,
+        "liveness": 0.206,
+        "loudness": -5.398,
+        "tempo": 119.055,
+        "valence": 0.34
+    },
     "crowd": {
         "acousticness": 0.11814999999999999,
         "danceability": 0.5425,
@@ -198,6 +278,16 @@
         "loudness": -3.899,
         "tempo": 159.621,
         "valence": 0.305
+    },
+    "dark": {
+        "acousticness": 0.03535,
+        "danceability": 0.5945,
+        "energy": 0.877,
+        "instrumentalness": 0.00042,
+        "liveness": 0.1894,
+        "loudness": -5.139,
+        "tempo": 121.8495,
+        "valence": 0.13855
     },
     "day": {
         "acousticness": 0.854,
@@ -219,15 +309,35 @@
         "tempo": 165.007,
         "valence": 0.187
     },
+    "desert": {
+        "acousticness": 0.72,
+        "danceability": 0.136,
+        "energy": 0.256,
+        "instrumentalness": 0.827,
+        "liveness": 0.12,
+        "loudness": -13.957,
+        "tempo": 167.826,
+        "valence": 0.0537
+    },
     "dining": {
-        "acousticness": 0.993,
-        "danceability": 0.275,
-        "energy": 0.114,
-        "instrumentalness": 0.915,
-        "liveness": 0.103,
-        "loudness": -25.437,
-        "tempo": 167.237,
-        "valence": 0.0495
+        "acousticness": 0.9875,
+        "danceability": 0.34199999999999997,
+        "energy": 0.10155,
+        "instrumentalness": 0.896,
+        "liveness": 0.1745,
+        "loudness": -23.711,
+        "tempo": 123.5235,
+        "valence": 0.10575000000000001
+    },
+    "dirt": {
+        "acousticness": 0.72,
+        "danceability": 0.136,
+        "energy": 0.256,
+        "instrumentalness": 0.827,
+        "liveness": 0.12,
+        "loudness": -13.957,
+        "tempo": 167.826,
+        "valence": 0.0537
     },
     "doing": {
         "acousticness": 2.2e-05,
@@ -238,6 +348,16 @@
         "loudness": -8.215,
         "tempo": 93.078,
         "valence": 0.319
+    },
+    "dune": {
+        "acousticness": 0.72,
+        "danceability": 0.136,
+        "energy": 0.256,
+        "instrumentalness": 0.827,
+        "liveness": 0.12,
+        "loudness": -13.957,
+        "tempo": 167.826,
+        "valence": 0.0537
     },
     "enjoying": {
         "acousticness": 0.0953,
@@ -270,24 +390,34 @@
         "valence": 0.943
     },
     "field": {
-        "acousticness": 0.378,
-        "danceability": 0.459,
-        "energy": 0.85,
-        "instrumentalness": 0.0,
-        "liveness": 0.588,
-        "loudness": -8.132,
-        "tempo": 91.977,
-        "valence": 0.52
+        "acousticness": 0.4132,
+        "danceability": 0.5223333333333333,
+        "energy": 0.5173,
+        "instrumentalness": 0.13537000000000002,
+        "liveness": 0.309,
+        "loudness": -11.684666666666667,
+        "tempo": 105.11433333333333,
+        "valence": 0.34500000000000003
+    },
+    "fireworks": {
+        "acousticness": 0.0628,
+        "danceability": 0.536,
+        "energy": 0.844,
+        "instrumentalness": 0.00084,
+        "liveness": 0.0608,
+        "loudness": -6.918,
+        "tempo": 117.652,
+        "valence": 0.185
     },
     "floor": {
-        "acousticness": 0.45035400000000003,
-        "danceability": 0.47109999999999996,
-        "energy": 0.39141299999999996,
-        "instrumentalness": 0.5361100000000001,
-        "liveness": 0.11352999999999999,
-        "loudness": -15.787199999999999,
-        "tempo": 140.70340000000004,
-        "valence": 0.32513000000000003
+        "acousticness": 0.46754499999999993,
+        "danceability": 0.45858333333333334,
+        "energy": 0.3864274999999999,
+        "instrumentalness": 0.5198420341666666,
+        "liveness": 0.11431666666666668,
+        "loudness": -16.040833333333335,
+        "tempo": 139.33083333333335,
+        "valence": 0.3239416666666667
     },
     "forest": {
         "acousticness": 0.499,
@@ -299,15 +429,25 @@
         "tempo": 91.48349999999999,
         "valence": 0.1725
     },
+    "fruit": {
+        "acousticness": 0.172,
+        "danceability": 0.642,
+        "energy": 0.7,
+        "instrumentalness": 0.000232,
+        "liveness": 0.0895,
+        "loudness": -9.213,
+        "tempo": 103.899,
+        "valence": 0.784
+    },
     "furniture": {
-        "acousticness": 0.57455,
-        "danceability": 0.41425,
-        "energy": 0.263025,
-        "instrumentalness": 0.7405,
-        "liveness": 0.094725,
-        "loudness": -17.9745,
-        "tempo": 126.52199999999999,
-        "valence": 0.165975
+        "acousticness": 0.6267428571428572,
+        "danceability": 0.40828571428571425,
+        "energy": 0.2663142857142858,
+        "instrumentalness": 0.6737149157142858,
+        "liveness": 0.12305714285714288,
+        "loudness": -18.357285714285716,
+        "tempo": 121.54771428571429,
+        "valence": 0.20884285714285714
     },
     "gallery": {
         "acousticness": 0.979,
@@ -320,24 +460,54 @@
         "valence": 0.126
     },
     "grass": {
-        "acousticness": 0.4775,
-        "danceability": 0.55525,
-        "energy": 0.58675,
-        "instrumentalness": 0.00019232500000000003,
-        "liveness": 0.2231,
-        "loudness": -7.9007499999999995,
-        "tempo": 95.47125000000001,
-        "valence": 0.33475
+        "acousticness": 0.4619333333333333,
+        "danceability": 0.5548333333333334,
+        "energy": 0.50815,
+        "instrumentalness": 0.06781321666666668,
+        "liveness": 0.20523333333333335,
+        "loudness": -9.754166666666666,
+        "tempo": 100.87516666666666,
+        "valence": 0.30900000000000005
     },
     "grassy": {
-        "acousticness": 0.378,
-        "danceability": 0.459,
-        "energy": 0.85,
-        "instrumentalness": 0.0,
-        "liveness": 0.588,
-        "loudness": -8.132,
-        "tempo": 91.977,
-        "valence": 0.52
+        "acousticness": 0.1983,
+        "danceability": 0.5395,
+        "energy": 0.7444999999999999,
+        "instrumentalness": 5.5e-05,
+        "liveness": 0.39699999999999996,
+        "loudness": -6.765,
+        "tempo": 105.516,
+        "valence": 0.43000000000000005
+    },
+    "grazing": {
+        "acousticness": 0.0186,
+        "danceability": 0.62,
+        "energy": 0.639,
+        "instrumentalness": 0.00011,
+        "liveness": 0.206,
+        "loudness": -5.398,
+        "tempo": 119.055,
+        "valence": 0.34
+    },
+    "green": {
+        "acousticness": 0.0186,
+        "danceability": 0.62,
+        "energy": 0.639,
+        "instrumentalness": 0.00011,
+        "liveness": 0.206,
+        "loudness": -5.398,
+        "tempo": 119.055,
+        "valence": 0.34
+    },
+    "ground": {
+        "acousticness": 0.72,
+        "danceability": 0.136,
+        "energy": 0.256,
+        "instrumentalness": 0.827,
+        "liveness": 0.12,
+        "loudness": -13.957,
+        "tempo": 167.826,
+        "valence": 0.0537
     },
     "group": {
         "acousticness": 0.07569999999999999,
@@ -359,15 +529,25 @@
         "tempo": 93.078,
         "valence": 0.319
     },
+    "hillside": {
+        "acousticness": 0.0186,
+        "danceability": 0.62,
+        "energy": 0.639,
+        "instrumentalness": 0.00011,
+        "liveness": 0.206,
+        "loudness": -5.398,
+        "tempo": 119.055,
+        "valence": 0.34
+    },
     "indoor": {
-        "acousticness": 0.4106957142857142,
-        "danceability": 0.4864285714285714,
-        "energy": 0.46879499999999996,
-        "instrumentalness": 0.51865,
-        "liveness": 0.11528571428571426,
-        "loudness": -14.437214285714285,
-        "tempo": 145.02685714285715,
-        "valence": 0.41241428571428557
+        "acousticness": 0.43592444444444445,
+        "danceability": 0.48133333333333334,
+        "energy": 0.4602905555555556,
+        "instrumentalness": 0.5008391338888888,
+        "liveness": 0.13413888888888886,
+        "loudness": -14.560222222222222,
+        "tempo": 138.95383333333336,
+        "valence": 0.37021666666666664
     },
     "lake": {
         "acousticness": 0.854,
@@ -380,24 +560,24 @@
         "valence": 0.612
     },
     "laptop": {
-        "acousticness": 0.141,
-        "danceability": 0.528,
-        "energy": 0.965,
-        "instrumentalness": 0.985,
-        "liveness": 0.0797,
-        "loudness": -7.984,
-        "tempo": 136.065,
-        "valence": 0.587
+        "acousticness": 0.07444999999999999,
+        "danceability": 0.5905,
+        "energy": 0.9375,
+        "instrumentalness": 0.4925,
+        "liveness": 0.19885,
+        "loudness": -5.672,
+        "tempo": 131.05599999999998,
+        "valence": 0.33954999999999996
     },
     "library": {
-        "acousticness": 0.995,
-        "danceability": 0.398,
-        "energy": 0.00293,
-        "instrumentalness": 0.922,
-        "liveness": 0.0897,
-        "loudness": -29.481,
-        "tempo": 130.464,
-        "valence": 0.0804
+        "acousticness": 0.9944999999999999,
+        "danceability": 0.35050000000000003,
+        "energy": 0.055465,
+        "instrumentalness": 0.8995,
+        "liveness": 0.08510000000000001,
+        "loudness": -28.457,
+        "tempo": 128.6975,
+        "valence": 0.13019999999999998
     },
     "line": {
         "acousticness": 0.5860000000000001,
@@ -420,14 +600,14 @@
         "valence": 0.4295
     },
     "living": {
-        "acousticness": 0.0302,
-        "danceability": 0.533,
-        "energy": 0.376,
-        "instrumentalness": 0.248,
-        "liveness": 0.0926,
-        "loudness": -11.913,
-        "tempo": 165.007,
-        "valence": 0.187
+        "acousticness": 0.5121,
+        "danceability": 0.41800000000000004,
+        "energy": 0.242,
+        "instrumentalness": 0.5625,
+        "liveness": 0.08655,
+        "loudness": -19.673000000000002,
+        "tempo": 145.969,
+        "valence": 0.1835
     },
     "long": {
         "acousticness": 0.5860000000000001,
@@ -449,6 +629,26 @@
         "tempo": 127.96449999999999,
         "valence": 0.4295
     },
+    "lush": {
+        "acousticness": 0.0186,
+        "danceability": 0.62,
+        "energy": 0.639,
+        "instrumentalness": 0.00011,
+        "liveness": 0.206,
+        "loudness": -5.398,
+        "tempo": 119.055,
+        "valence": 0.34
+    },
+    "mammal": {
+        "acousticness": 0.0186,
+        "danceability": 0.62,
+        "energy": 0.639,
+        "instrumentalness": 0.00011,
+        "liveness": 0.206,
+        "loudness": -5.398,
+        "tempo": 119.055,
+        "valence": 0.34
+    },
     "man": {
         "acousticness": 2.2e-05,
         "danceability": 0.329,
@@ -459,15 +659,25 @@
         "tempo": 93.078,
         "valence": 0.319
     },
+    "mountain": {
+        "acousticness": 0.0186,
+        "danceability": 0.62,
+        "energy": 0.639,
+        "instrumentalness": 0.00011,
+        "liveness": 0.206,
+        "loudness": -5.398,
+        "tempo": 119.055,
+        "valence": 0.34
+    },
     "nature": {
-        "acousticness": 0.5547500000000001,
-        "danceability": 0.5215000000000001,
-        "energy": 0.68825,
-        "instrumentalness": 4.1825e-05,
-        "liveness": 0.22799999999999998,
-        "loudness": -7.138,
-        "tempo": 119.43249999999998,
-        "valence": 0.6205
+        "acousticness": 0.5878,
+        "danceability": 0.4444,
+        "energy": 0.6017999999999999,
+        "instrumentalness": 0.16543345999999998,
+        "liveness": 0.2064,
+        "loudness": -8.5018,
+        "tempo": 129.1112,
+        "valence": 0.50714
     },
     "ocean": {
         "acousticness": 0.49350000000000005,
@@ -489,15 +699,35 @@
         "tempo": 101.785,
         "valence": 0.039
     },
+    "orange": {
+        "acousticness": 0.113,
+        "danceability": 0.489,
+        "energy": 0.615,
+        "instrumentalness": 4.41e-06,
+        "liveness": 0.156,
+        "loudness": -7.185,
+        "tempo": 138.005,
+        "valence": 0.456
+    },
     "outdoor": {
-        "acousticness": 0.3836992,
-        "danceability": 0.5286,
-        "energy": 0.6617999999999999,
-        "instrumentalness": 0.000105675,
-        "liveness": 0.17818000000000003,
-        "loudness": -7.748900000000002,
-        "tempo": 114.3181,
-        "valence": 0.42990000000000006
+        "acousticness": 0.4273661333333333,
+        "danceability": 0.4892666666666666,
+        "energy": 0.5739933333333334,
+        "instrumentalness": 0.14461111666666668,
+        "liveness": 0.17855333333333334,
+        "loudness": -9.275133333333335,
+        "tempo": 115.50293333333333,
+        "valence": 0.37721333333333334
+    },
+    "outdoor object": {
+        "acousticness": 0.054349999999999996,
+        "danceability": 0.5760000000000001,
+        "energy": 0.877,
+        "instrumentalness": 0.00042,
+        "liveness": 0.20190000000000002,
+        "loudness": -4.961,
+        "tempo": 130.8625,
+        "valence": 0.43899999999999995
     },
     "overlooking": {
         "acousticness": 0.854,
@@ -519,25 +749,35 @@
         "tempo": 94.064,
         "valence": 0.2435
     },
+    "pasture": {
+        "acousticness": 0.0186,
+        "danceability": 0.62,
+        "energy": 0.639,
+        "instrumentalness": 0.00011,
+        "liveness": 0.206,
+        "loudness": -5.398,
+        "tempo": 119.055,
+        "valence": 0.34
+    },
     "people": {
         "acousticness": 0.093014,
         "danceability": 0.5748,
         "energy": 0.7116,
         "instrumentalness": 0.19701329,
-        "liveness": 0.10382,
-        "loudness": -6.472799999999999,
+        "liveness": 0.10381999999999998,
+        "loudness": -6.472800000000001,
         "tempo": 135.75119999999998,
         "valence": 0.5624
     },
     "person": {
-        "acousticness": 0.043859,
-        "danceability": 0.5085000000000001,
-        "energy": 0.8330000000000001,
-        "instrumentalness": 0.18885945,
-        "liveness": 0.16435000000000002,
-        "loudness": -6.652,
-        "tempo": 141.86249999999998,
-        "valence": 0.636
+        "acousticness": 0.15802200000000002,
+        "danceability": 0.5055714285714286,
+        "energy": 0.7229857142857143,
+        "instrumentalness": 0.21987952857142856,
+        "liveness": 0.15987142857142858,
+        "loudness": -8.776571428571428,
+        "tempo": 136.49800000000002,
+        "valence": 0.5701428571428571
     },
     "plant": {
         "acousticness": 0.499,
@@ -568,6 +808,16 @@
         "loudness": -10.312,
         "tempo": 84.033,
         "valence": 0.118
+    },
+    "purple": {
+        "acousticness": 0.0079,
+        "danceability": 0.653,
+        "energy": 0.91,
+        "instrumentalness": 0.0,
+        "liveness": 0.318,
+        "loudness": -3.36,
+        "tempo": 126.047,
+        "valence": 0.0921
     },
     "ramp": {
         "acousticness": 2.2e-05,
@@ -620,34 +870,54 @@
         "valence": 0.809
     },
     "room": {
-        "acousticness": 0.47134,
-        "danceability": 0.45899999999999996,
-        "energy": 0.368186,
-        "instrumentalness": 0.7332000000000001,
-        "liveness": 0.13246,
-        "loudness": -15.3994,
-        "tempo": 153.7092,
-        "valence": 0.28668
+        "acousticness": 0.55845,
+        "danceability": 0.433,
+        "energy": 0.32482166666666673,
+        "instrumentalness": 0.7571666666666667,
+        "liveness": 0.12380000000000002,
+        "loudness": -17.404999999999998,
+        "tempo": 149.24616666666668,
+        "valence": 0.2689
+    },
+    "sand": {
+        "acousticness": 0.72,
+        "danceability": 0.136,
+        "energy": 0.256,
+        "instrumentalness": 0.827,
+        "liveness": 0.12,
+        "loudness": -13.957,
+        "tempo": 167.826,
+        "valence": 0.0537
     },
     "sandy": {
-        "acousticness": 0.49350000000000005,
-        "danceability": 0.47300000000000003,
-        "energy": 0.6635,
-        "instrumentalness": 6.2e-05,
-        "liveness": 0.1105,
-        "loudness": -6.819,
-        "tempo": 146.34,
-        "valence": 0.675
+        "acousticness": 0.5690000000000001,
+        "danceability": 0.3606666666666667,
+        "energy": 0.5276666666666666,
+        "instrumentalness": 0.275708,
+        "liveness": 0.11366666666666665,
+        "loudness": -9.198333333333332,
+        "tempo": 153.50199999999998,
+        "valence": 0.46790000000000004
     },
     "scene": {
-        "acousticness": 0.7441675,
-        "danceability": 0.43200000000000005,
-        "energy": 0.2104825,
-        "instrumentalness": 0.686014925,
-        "liveness": 0.090025,
-        "loudness": -20.10825,
-        "tempo": 141.2775,
-        "valence": 0.26622500000000004
+        "acousticness": 0.596914,
+        "danceability": 0.47620000000000007,
+        "energy": 0.350386,
+        "instrumentalness": 0.54881194,
+        "liveness": 0.13562,
+        "loudness": -16.7586,
+        "tempo": 138.2314,
+        "valence": 0.23140000000000005
+    },
+    "sea": {
+        "acousticness": 0.0459,
+        "danceability": 0.616,
+        "energy": 0.91,
+        "instrumentalness": 0.0,
+        "liveness": 0.343,
+        "loudness": -3.004,
+        "tempo": 144.073,
+        "valence": 0.693
     },
     "set": {
         "acousticness": 0.995,
@@ -670,24 +940,34 @@
         "valence": 0.38799999999999996
     },
     "shelf": {
-        "acousticness": 0.995,
-        "danceability": 0.398,
-        "energy": 0.00293,
-        "instrumentalness": 0.922,
-        "liveness": 0.0897,
-        "loudness": -29.481,
-        "tempo": 130.464,
-        "valence": 0.0804
+        "acousticness": 0.9944999999999999,
+        "danceability": 0.35050000000000003,
+        "energy": 0.055465,
+        "instrumentalness": 0.8995,
+        "liveness": 0.08510000000000001,
+        "loudness": -28.457,
+        "tempo": 128.6975,
+        "valence": 0.13019999999999998
+    },
+    "ship": {
+        "acousticness": 0.0459,
+        "danceability": 0.616,
+        "energy": 0.91,
+        "instrumentalness": 0.0,
+        "liveness": 0.343,
+        "loudness": -3.004,
+        "tempo": 144.073,
+        "valence": 0.693
     },
     "shore": {
-        "acousticness": 0.3607666666666667,
-        "danceability": 0.501,
-        "energy": 0.703,
-        "instrumentalness": 4.358333333333333e-05,
-        "liveness": 0.11299999999999999,
-        "loudness": -5.845666666666666,
-        "tempo": 150.767,
-        "valence": 0.5516666666666666
+        "acousticness": 0.450575,
+        "danceability": 0.40975000000000006,
+        "energy": 0.59125,
+        "instrumentalness": 0.20678268749999998,
+        "liveness": 0.11474999999999999,
+        "loudness": -7.8735,
+        "tempo": 155.03175,
+        "valence": 0.42717499999999997
     },
     "sidewalk": {
         "acousticness": 0.00967,
@@ -730,14 +1010,24 @@
         "valence": 0.319
     },
     "sky": {
-        "acousticness": 0.46286000000000005,
-        "danceability": 0.5286,
-        "energy": 0.7070000000000001,
-        "instrumentalness": 3.481e-05,
-        "liveness": 0.20599999999999996,
-        "loudness": -6.4902,
-        "tempo": 127.4702,
-        "valence": 0.5574000000000001
+        "acousticness": 0.49040000000000006,
+        "danceability": 0.4853750000000001,
+        "energy": 0.5954875000000001,
+        "instrumentalness": 0.15414675625,
+        "liveness": 0.20325000000000004,
+        "loudness": -8.867,
+        "tempo": 131.695125,
+        "valence": 0.46358749999999993
+    },
+    "snow": {
+        "acousticness": 0.946,
+        "danceability": 0.193,
+        "energy": 0.124,
+        "instrumentalness": 0.935,
+        "liveness": 0.0945,
+        "loudness": -17.755,
+        "tempo": 54.098,
+        "valence": 0.0975
     },
     "sofa": {
         "acousticness": 0.0302,
@@ -760,14 +1050,14 @@
         "valence": 0.393
     },
     "stage": {
-        "acousticness": 0.000262,
-        "danceability": 0.356,
-        "energy": 0.966,
-        "instrumentalness": 0.148,
-        "liveness": 0.192,
-        "loudness": -4.13,
-        "tempo": 173.992,
-        "valence": 0.215
+        "acousticness": 0.004081,
+        "danceability": 0.5045,
+        "energy": 0.938,
+        "instrumentalness": 0.074,
+        "liveness": 0.255,
+        "loudness": -3.745,
+        "tempo": 150.0195,
+        "valence": 0.15355
     },
     "stone": {
         "acousticness": 0.515,
@@ -800,14 +1090,14 @@
         "valence": 0.118
     },
     "table": {
-        "acousticness": 0.5115599999999999,
-        "danceability": 0.43325,
-        "energy": 0.4364825,
-        "instrumentalness": 0.45925000000000005,
-        "liveness": 0.118675,
-        "loudness": -16.486250000000002,
-        "tempo": 158.04325,
-        "valence": 0.382975
+        "acousticness": 0.6056479999999999,
+        "danceability": 0.4284,
+        "energy": 0.367006,
+        "instrumentalness": 0.5428000000000001,
+        "liveness": 0.14414,
+        "loudness": -17.586000000000002,
+        "tempo": 142.39659999999998,
+        "valence": 0.33877999999999997
     },
     "tower": {
         "acousticness": 0.515,
@@ -820,14 +1110,14 @@
         "valence": 0.039
     },
     "tree": {
-        "acousticness": 0.499,
-        "danceability": 0.645,
-        "energy": 0.5565,
-        "instrumentalness": 0.0,
-        "liveness": 0.119,
-        "loudness": -8.8455,
-        "tempo": 91.48349999999999,
-        "valence": 0.1725
+        "acousticness": 0.648,
+        "danceability": 0.49433333333333335,
+        "energy": 0.4123333333333334,
+        "instrumentalness": 0.3116666666666667,
+        "liveness": 0.11083333333333334,
+        "loudness": -11.815333333333333,
+        "tempo": 79.02166666666666,
+        "valence": 0.1475
     },
     "trick": {
         "acousticness": 2.2e-05,
@@ -850,14 +1140,14 @@
         "valence": 0.21033333333333334
     },
     "water": {
-        "acousticness": 0.6136666666666667,
-        "danceability": 0.5423333333333334,
-        "energy": 0.6343333333333333,
-        "instrumentalness": 5.576666666666667e-05,
-        "liveness": 0.108,
-        "loudness": -6.8066666666666675,
-        "tempo": 128.58433333333332,
-        "valence": 0.654
+        "acousticness": 0.47172500000000006,
+        "danceability": 0.56075,
+        "energy": 0.7032499999999999,
+        "instrumentalness": 4.1825e-05,
+        "liveness": 0.16675,
+        "loudness": -5.856,
+        "tempo": 132.4565,
+        "valence": 0.6637500000000001
     },
     "way": {
         "acousticness": 0.00967,
