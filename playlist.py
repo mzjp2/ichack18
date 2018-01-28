@@ -26,14 +26,14 @@ def playlistCreate():
 	for i, item in enumerate(results['items']):
 		if "{name}".format(name = item['name']) == 'Background Music':
 			old_playlist_id = "{id}".format(id=item['id'])
-			user_playlist_unfollow(username, old_playlist_id)
+			sp.user_playlist_unfollow(username, old_playlist_id)
 
 	playlists = sp.user_playlist_create(username, 'Background Music', public=False)
 	results = sp.current_user_playlists()
 	for i, item in enumerate(results['items']):
 		if "{name}".format(name = item['name']) == 'Background Music':
 			created_playlist_id = "{id}".format(id=item['id'])
-			
+
 	return created_playlist_id
 
 def playlistAdd(created_playlist_id, tracks_list):
