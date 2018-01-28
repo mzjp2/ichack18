@@ -4,6 +4,9 @@ import spotipy.util as util
 from analyse_image import get_image_tags
 import time
 
+# Dummy ID for Spotify API bad return workaround
+dummy_id = "0aWMVrwxPNYkKmFthzmpRi"
+
 # Set up API credentials
 client_credentials_manager = SpotifyClientCredentials(client_id=jsonreader.spotify_client_id, 
 	client_secret=jsonreader.spotify_client_key)
@@ -28,14 +31,13 @@ for image_file in song_examples:
 		song_examples[image_file]["song_ids"][song_id] = sp.audio_features(song_id)[0]
 		print(song_examples[image_file]["song_ids"][song_id])
 		time.sleep(0.5) # Wait to avoid Spotify API rate limiting
-		if song_examples[image_file]["song_ids"][song_id] == None:
-			# Retry once
-			print("Retrying...")
-			print(sp.audio_features(song_id))
+		"""if song_examples[image_file]["song_ids"][song_id] == None:
+			# Dumb workaround
+			print("Replace with dummy id that gives stupid weights but idk how to fix this")
 			time.sleep(0.5)
-			song_examples[image_file]["song_ids"][song_id] = sp.audio_features(song_id)[0]
+			song_examples[image_file]["song_ids"][song_id] = sp.audio_features(dummy_id)[0]
 			print(song_examples[image_file]["song_ids"][song_id])
-			time.sleep(0.5)
+			time.sleep(0.5)"""
 
 
 # Get Microsoft CV API data for each image
