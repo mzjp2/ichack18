@@ -1,15 +1,20 @@
 import spotipy
 import jsonreader
+import sys
 from spotipy.oauth2 import SpotifyClientCredentials
+import spotipy.util as util
 
-client_credentials_manager = SpotifyClientCredentials(client_id=jsonreader.spotify_client_id, client_secret=jsonreader.spotify_client_key)
-sp = spotipy.Spotify(client_credentials_manager=client_credentials_manager)
+scope = 'playlist-modify-private'
+username = 'cl1zn6lqeumrukzr0il0j2j24'
 
+token = util.prompt_for_user_token(username, scope, 
+									client_id=jsonreader.spotify_client_id,
+									client_secret=jsonreader.spotify_client_key, 
+									redirect_uri='http://localhost/')
 
-data = sp.recommendations(seed_genres=['piano'], limit = 20)
-data_list = data['tracks']
-
-
-
-for d_point in data_list:
-	print(d_point['id'], i)
+if token:
+	sp = spotipy.Spotify(auth = token)
+	sp.trace = False
+	playlists = sp.user_playlist_create(username, 'background', public=False)
+else:
+	print("Can't get token")
