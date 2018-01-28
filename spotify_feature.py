@@ -13,8 +13,8 @@ spot_tags = []
 
 # generate genre
 
-def generateGenre(spot_tags):
-	infile = open('averaged_genres.json', 'r')
+def generateGenre(spot_tags, list_len=1):
+	infile = open('proper_avg_gen.json', 'r')
 	f = json.load(infile)
 
 
@@ -23,24 +23,30 @@ def generateGenre(spot_tags):
 		spot_tags_arr = []
 		genre_values_list = []
 		for i in enumerate(f[genre]):
-			genre_values_list.append(f[genre][i[1]])
-			spot_tags_arr.append(spot_tags[i[1]])
+			if i[1] == 'tempo':
+				genre_values_list.append(f[genre][i[1]])
+				spot_tags_arr.append(spot_tags[i[1]]/float(250))
+			else:
+				genre_values_list.append(f[genre][i[1]])
+				spot_tags_arr.append(spot_tags[i[1]])
 
 		genres_nparrays[genre] = np.array(genre_values_list)
 
-	min_dist = 10**6
-	curr_genre_sugg = ''
-
 	spot_tags_arr = np.array(spot_tags_arr)
 
+	dist = {}
+	sugg_list = []
+
 	for genre in genres_nparrays.keys():
-		dist = np.linalg.norm(genres_nparrays[genre]-spot_tags_arr)
+		dist[genre] = np.linalg.norm(genres_nparrays[genre]-spot_tags_arr)
 
-		if dist < min_dist:
-			min_dist = dist
-			curr_genre_sugg = genre
 
-	return curr_genre_sugg
+	for _ in range(list_len):
+		max1 = min(dist, key=dist.get)
+		sugg_list.append(max1)
+		del dist[max1]
+
+	return sugg_list
 
 
 
@@ -127,3 +133,6 @@ if __name__ == '__main_':
 	track_list = recommendedList(genre, 5)
 	print(track_list)
 
+if __name__ == '__main__':
+	joes_tags = {"danceability":0.5035, "energy": 0.3688, "acousticness":0.61967, "instrumentalness": 0.015, "liveness": 0.189796, "valence": 0.36, "tempo":117.2}
+	x = generateGenre(joes_tags, 3)
