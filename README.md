@@ -28,7 +28,7 @@ pip3 install numpy
 
 * **Christopher Smith** - [christophermichaelsmith](https://github.com/christophermichaelsmith)
 * **Joe Rosenberg** - [joerosenberg](https://github.com/joerosenberg)
-* **Khalid Hassan** - [PurpleBooth](https://github.com/KHassan98)
+* **Khalid Hassan** - [KHassan98](https://github.com/KHassan98)
 * **Zain Patel** - [mzjp2](https://github.com/mzjp2)
 
 
