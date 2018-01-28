@@ -21,7 +21,7 @@ pip3 install numpy
 
 ## Built With
 
-* [Microsoft Computer Vision API](http://computervision.ai/) - How we generated tags from images
+* [Microsoft Computer Vision API](http://customvision.ai/) - How we generated tags from images
 * [Spotipy](http://spotipy.readthedocs.io/en/latest/) - Spotify API for Python
 
 ## Authors
