@@ -133,6 +133,5 @@ if __name__ == '__main_':
 	track_list = recommendedList(genre, 5)
 	print(track_list)
 
-if __name__ == '__main__':
 	joes_tags = {"danceability":0.5035, "energy": 0.3688, "acousticness":0.61967, "instrumentalness": 0.015, "liveness": 0.189796, "valence": 0.36, "tempo":117.2}
 	x = generateGenre(joes_tags, 3)
