@@ -1,0 +1,84 @@
+{
+	"bar.jpg": {
+		"song_ids": {
+
+			"0aWMVrwxPNYkKmFthzmpRi": {},
+			"1kmEwiqNyQVhcI1CHu3JLe": {}}
+	},
+	"beach.jpg": {
+		"song_ids": {
+			"5t9KYe0Fhd5cW6UYT4qP8f": {},
+			"0wz1LjDb9ZNEYwOmDJ3Q4b": {}
+		}
+		},
+	"beach2.jpg": {
+		"song_ids": {
+			"1YGZyfvdgZxzipWoWYVKxi": {}
+			}
+		},
+	"bedroom.jpeg": {
+		"song_ids": {"4qyKcYZpN4Itz0pl7CUIYY": {}}
+		},
+	"cafe.jpg": {
+		"song_ids": {"79RUMZfMNMpqZnswovvTqv": {}}
+		},
+	"city_street.jpg": {
+		"song_ids": {"6HZ67VImxqr8aMBEEhblzf": {}}
+		},
+	"fancy_cafe.jpg": {
+		"song_ids": {"7dpf08vXKQtbKZv6HTzJum": {}}
+		},
+	"field.jpg": {
+		"song_ids": {"07C7VmWaDTgEpWXoRESZu8": {}}
+		},
+	"forest.jpg": {
+		"song_ids": {"6fwK72KTCOourDoQRkrZWV": {}}
+		},
+
+	"gallery.jpg": {
+		"song_ids": {"1CqzAHY4fRx2ErgIcexbfu": {}}
+		},
+	"gathering.jpg": {
+		"song_ids": {"5WfhXulggG0c6WoVeMPA8N": {}}
+		},
+	"gym.jpg": {
+		"song_ids": {"6bGwloiyyHXwFZ4yV1zjqR": {}}
+		},
+	"hackathon.jpg": {
+		"song_ids": {"6Sy9BUbgFse0n0LPA5lwy5": {}}
+		},
+	"kids_party.jpg": {
+		"song_ids": {"5WfhXulggG0c6WoVeMPA8N": {}}
+		},
+	"lake.jpg": {
+		"song_ids": {"6WJAZ2TUnaKUv9aKkOGokD": {}}
+		},
+	"library.jpg": {
+		"song_ids": {"4q8f3Ls32PcXE8Ks4V1ufx": {}}
+		},
+	"living_room.jpeg": {
+		"song_ids": {"0MKqeOVdZcUFGJvWpGCKbG": {}}
+		},
+	"museum.jpg": {
+		"song_ids": {"1MiWGSGDC5mGoP3MNclZ7s": {}}
+		},
+	"office.jpg": {
+		"song_ids": {"7o2AeQZzfCERsRmOM86EcB": {}}
+		},
+	"park.jpg": {
+		"song_ids": {"0tgVpDi06FyKpA1z0VMD4v": {}}
+		},
+	"party.jpg": {
+		"song_ids": {"6tC2iHfUlzB2W4ntXXL2BH": {}}
+		},
+
+	"queens_college.jpg": {
+		"song_ids": {"61MoKejsY2k0hVb50zZ4Yn": {}}
+		},
+	"skatepark.jpeg": {
+		"song_ids": {"0cntShbC3GmWXygfH98brk": {}}
+		},
+	"train_interior.jpg": {
+		"song_ids": {"2XQSgmtEY2titXhfY414dy": {}}
+		}
+}
