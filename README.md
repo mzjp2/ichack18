@@ -6,9 +6,9 @@ We aim to take a picture and generate appropriate background music for the scene
 
 Clone the repo and install the requirements, then run 
 ```
-python3 playlist.py
+python3 interface.py
 ```
-and sign in with your spotify account.
+and upload an image from your local machine.
 
 ### Prerequisites
 
@@ -17,6 +17,7 @@ What things you need to install the software and how to install them
 ```
 pip3 install spotipy
 pip3 install numpy
+sudo apt-get install python3-tk
 ```
 
 ## Built With
@@ -39,4 +40,6 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 ## Acknowledgments
 
 * DoCSoc for hosting ICHack18
-* [José Manuel Pérez](https://codepen.io/jmperez/pen/MmwObE)
+* Kiseki Hirakawa for keeping us all sane
+* Matthew Jones for being a very kind heart
+* Gurbir Singh Johal
