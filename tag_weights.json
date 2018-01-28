@@ -1,0 +1,92 @@
+{
+    "bar": {
+        "acousticness": 0.719,
+        "danceability": 0.822,
+        "energy": 0.479,
+        "instrumentalness": 4.42e-05,
+        "liveness": 0.124,
+        "loudness": -15.962,
+        "tempo": 92.461,
+        "valence": 0.72
+    },
+    "floor": {
+        "acousticness": 0.719,
+        "danceability": 0.822,
+        "energy": 0.479,
+        "instrumentalness": 4.42e-05,
+        "liveness": 0.124,
+        "loudness": -15.962,
+        "tempo": 92.461,
+        "valence": 0.72
+    },
+    "indoor": {
+        "acousticness": 0.719,
+        "danceability": 0.822,
+        "energy": 0.479,
+        "instrumentalness": 4.42e-05,
+        "liveness": 0.124,
+        "loudness": -15.962,
+        "tempo": 92.461,
+        "valence": 0.72
+    },
+    "line": {
+        "acousticness": 0.719,
+        "danceability": 0.822,
+        "energy": 0.479,
+        "instrumentalness": 4.42e-05,
+        "liveness": 0.124,
+        "loudness": -15.962,
+        "tempo": 92.461,
+        "valence": 0.72
+    },
+    "lined": {
+        "acousticness": 0.719,
+        "danceability": 0.822,
+        "energy": 0.479,
+        "instrumentalness": 4.42e-05,
+        "liveness": 0.124,
+        "loudness": -15.962,
+        "tempo": 92.461,
+        "valence": 0.72
+    },
+    "long": {
+        "acousticness": 0.719,
+        "danceability": 0.822,
+        "energy": 0.479,
+        "instrumentalness": 4.42e-05,
+        "liveness": 0.124,
+        "loudness": -15.962,
+        "tempo": 92.461,
+        "valence": 0.72
+    },
+    "lots": {
+        "acousticness": 0.719,
+        "danceability": 0.822,
+        "energy": 0.479,
+        "instrumentalness": 4.42e-05,
+        "liveness": 0.124,
+        "loudness": -15.962,
+        "tempo": 92.461,
+        "valence": 0.72
+    },
+    "restaurant": {
+        "acousticness": 0.719,
+        "danceability": 0.822,
+        "energy": 0.479,
+        "instrumentalness": 4.42e-05,
+        "liveness": 0.124,
+        "loudness": -15.962,
+        "tempo": 92.461,
+        "valence": 0.72
+    },
+    "several": {
+        "acousticness": 0.719,
+        "danceability": 0.822,
+        "energy": 0.479,
+        "instrumentalness": 4.42e-05,
+        "liveness": 0.124,
+        "loudness": -15.962,
+        "tempo": 92.461,
+        "valence": 0.72
+    }
+}
