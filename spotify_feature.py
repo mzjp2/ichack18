@@ -1,5 +1,6 @@
 import spotipy, jsonreader, json
 from spotipy.oauth2 import SpotifyClientCredentials
+import numpy as np
 
 # authentication stuff
 
@@ -11,10 +12,37 @@ spot_tags = []
 # generate genre
 
 def generateGenre(spot_tags):
-	f = json.load('averaged_genres.json')
+	infile = open('averaged_genres.json', 'r')
+	f = json.load(infile)
 
 
-	return 'piano'
+
+
+	genres_nparrays = {}
+	for genre in f.keys():
+		spot_tags_arr = []
+		genre_values_list = []
+		for i in enumerate(f[genre]):
+			genre_values_list.append(f[genre][i[1]])
+			spot_tags_arr.append(spot_tags[i[1]])
+
+		genres_nparrays[genre] = np.array(genre_values_list)
+
+	min_dist = 10**6
+	curr_genre_sugg = ''
+
+	spot_tags_arr = np.array(spot_tags_arr)
+
+	for genre in genres_nparrays.keys():
+		dist = np.linalg.norm(genres_nparrays[genre]-spot_tags_arr)
+
+		if dist < min_dist:
+			min_dist = dist
+			curr_genre_sugg = genre
+
+	return curr_genre_sugg
+
+
 
 # generate recommended list based on genre
 
@@ -88,15 +116,8 @@ if __name__ == '__main_':
 	with open('averaged_genres.json', 'w') as outfile:
 		json.dump(genres_avg_dict, outfile, indent=4)
 
-if __name__ == '__main__':
-	joes_tags = {
-        "danceability": 0.56308,
-        "energy": 0.48857999999999996,
-        "acousticness": 0.5142559999999999,
-        "instrumentalness": 0.05863913239999997,
-        "liveness": 0.16398000000000004,
-        "valence": 0.6124100000000001,
-        "tempo": 117.40937999999998
-    }
 
-    print(generateGenre(joes_tags))
+
+if __name__ == '__main__':
+	joes_tags = {"danceability":0.5035, "energy": 0.3688, "acousticness":0.61967, "instrumentalness": 0.015, "liveness": 0.189796, "valence": 0.36, "tempo":117.2}
+	print(generateGenre(joes_tags))
