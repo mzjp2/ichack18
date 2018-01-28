@@ -1,0 +1,245 @@
+{
+    "acoustic": {
+        "danceability": 0.5035800000000001,
+        "energy": 0.36881800000000003,
+        "acousticness": 0.6196739999999998,
+        "instrumentalness": 0.015343216599999997,
+        "liveness": 0.18979600000000005,
+        "valence": 0.36410799999999993,
+        "tempo": 117.21091999999994
+    },
+    "ambient": {
+        "danceability": 0.3550160000000001,
+        "energy": 0.35143460000000004,
+        "acousticness": 0.6617815788000001,
+        "instrumentalness": 0.7756862000000001,
+        "liveness": 0.17352600000000007,
+        "valence": 0.17299,
+        "tempo": 117.39326000000001
+    },
+    "blues": {
+        "danceability": 0.56308,
+        "energy": 0.48857999999999996,
+        "acousticness": 0.5142559999999999,
+        "instrumentalness": 0.05863913239999997,
+        "liveness": 0.16398000000000004,
+        "valence": 0.6124100000000001,
+        "tempo": 117.40937999999998
+    },
+    "chill": {
+        "danceability": 0.565,
+        "energy": 0.5261399999999999,
+        "acousticness": 0.3700887999999999,
+        "instrumentalness": 0.05947099540000001,
+        "liveness": 0.15163599999999997,
+        "valence": 0.357132,
+        "tempo": 114.71096
+    },
+    "classical": {
+        "danceability": 0.23886599999999994,
+        "energy": 0.13941159999999994,
+        "acousticness": 0.8940799999999995,
+        "instrumentalness": 0.66598366,
+        "liveness": 0.14388800000000004,
+        "valence": 0.111556,
+        "tempo": 100.06688000000004
+    },
+    "dance": {
+        "danceability": 0.69848,
+        "energy": 0.7601000000000002,
+        "acousticness": 0.08507516000000001,
+        "instrumentalness": 0.2066137052,
+        "liveness": 0.183154,
+        "valence": 0.52056,
+        "tempo": 126.39653999999997
+    },
+    "disco": {
+        "danceability": 0.6862200000000002,
+        "energy": 0.8086400000000001,
+        "acousticness": 0.07764379999999999,
+        "instrumentalness": 0.0209782056,
+        "liveness": 0.21186200000000002,
+        "valence": 0.7609999999999998,
+        "tempo": 120.43176
+    },
+    "electronic": {
+        "danceability": 0.62202,
+        "energy": 0.7551600000000004,
+        "acousticness": 0.06683160399999998,
+        "instrumentalness": 0.2800377474,
+        "liveness": 0.20000800000000005,
+        "valence": 0.41632199999999986,
+        "tempo": 123.12392000000001
+    },
+    "gospel": {
+        "danceability": 0.47342,
+        "energy": 0.6213799999999998,
+        "acousticness": 0.2703275999999999,
+        "instrumentalness": 0.0001115372,
+        "liveness": 0.33907200000000004,
+        "valence": 0.37502,
+        "tempo": 117.48268000000003
+    },
+    "guitar": {
+        "danceability": 0.5109799999999999,
+        "energy": 0.7561,
+        "acousticness": 0.12139681600000002,
+        "instrumentalness": 0.15367812220000002,
+        "liveness": 0.19183799999999998,
+        "valence": 0.551358,
+        "tempo": 129.22320000000002
+    },
+    "happy": {
+        "danceability": 0.6327200000000001,
+        "energy": 0.7416200000000001,
+        "acousticness": 0.11769429999999997,
+        "instrumentalness": 0.010078004599999999,
+        "liveness": 0.18376400000000004,
+        "valence": 0.5879999999999999,
+        "tempo": 124.0192
+    },
+    "house": {
+        "danceability": 0.6717799999999999,
+        "energy": 0.8222200000000004,
+        "acousticness": 0.034982820000000005,
+        "instrumentalness": 0.33857585120000017,
+        "liveness": 0.20700000000000002,
+        "valence": 0.4881019999999999,
+        "tempo": 127.52604000000005
+    },
+    "metal": {
+        "danceability": 0.45276000000000005,
+        "energy": 0.8580199999999999,
+        "acousticness": 0.04014520100000001,
+        "instrumentalness": 0.0600771122,
+        "liveness": 0.18537399999999998,
+        "valence": 0.3844819999999999,
+        "tempo": 126.49640000000001
+    },
+    "movies": {
+        "danceability": 0.394284,
+        "energy": 0.39048999999999995,
+        "acousticness": 0.554490336,
+        "instrumentalness": 0.39869915580000004,
+        "liveness": 0.18699000000000002,
+        "valence": 0.28762600000000005,
+        "tempo": 110.00106000000004
+    },
+    "opera": {
+        "danceability": 0.28774000000000005,
+        "energy": 0.22675400000000007,
+        "acousticness": 0.9225199999999998,
+        "instrumentalness": 0.10656946560000005,
+        "liveness": 0.19928200000000004,
+        "valence": 0.19617800000000002,
+        "tempo": 105.34960000000002
+    },
+    "party": {
+        "danceability": 0.70542,
+        "energy": 0.7311599999999998,
+        "acousticness": 0.0797192,
+        "instrumentalness": 0.032254667199999996,
+        "liveness": 0.17371800000000007,
+        "valence": 0.48809599999999986,
+        "tempo": 125.20497999999999
+    },
+    "piano": {
+        "danceability": 0.37348000000000003,
+        "energy": 0.14920360000000002,
+        "acousticness": 0.9319999999999996,
+        "instrumentalness": 0.7711071935999999,
+        "liveness": 0.11706799999999998,
+        "valence": 0.165062,
+        "tempo": 114.02044000000002
+    },
+    "pop": {
+        "danceability": 0.648,
+        "energy": 0.6664,
+        "acousticness": 0.2222722,
+        "instrumentalness": 0.004816108,
+        "liveness": 0.18265600000000004,
+        "valence": 0.51374,
+        "tempo": 112.20794000000002
+    },
+    "punk": {
+        "danceability": 0.5117200000000001,
+        "energy": 0.74572,
+        "acousticness": 0.16724608200000002,
+        "instrumentalness": 0.0251636194,
+        "liveness": 0.230608,
+        "valence": 0.57858,
+        "tempo": 129.75355999999996
+    },
+    "sad": {
+        "danceability": 0.48900000000000005,
+        "energy": 0.4826400000000002,
+        "acousticness": 0.44804659999999996,
+        "instrumentalness": 0.04675932940000002,
+        "liveness": 0.140394,
+        "valence": 0.28862799999999994,
+        "tempo": 121.09848000000005
+    },
+    "salsa": {
+        "danceability": 0.6532399999999998,
+        "energy": 0.7315999999999997,
+        "acousticness": 0.46345200000000014,
+        "instrumentalness": 0.0035467805999999996,
+        "liveness": 0.214306,
+        "valence": 0.7956600000000001,
+        "tempo": 122.27666
+    },
+    "sleep": {
+        "danceability": 0.52256,
+        "energy": 0.4552419999999999,
+        "acousticness": 0.4999870000000001,
+        "instrumentalness": 0.1047747548,
+        "liveness": 0.156392,
+        "valence": 0.33271000000000006,
+        "tempo": 124.81596000000002
+    },
+    "soundtracks": {
+        "danceability": 0.29725599999999996,
+        "energy": 0.29995399999999994,
+        "acousticness": 0.6277480000000001,
+        "instrumentalness": 0.69465642,
+        "liveness": 0.128,
+        "valence": 0.16839600000000002,
+        "tempo": 111.24976000000001
+    },
+    "study": {
+        "danceability": 0.5514399999999999,
+        "energy": 0.5123500000000001,
+        "acousticness": 0.42470099999999994,
+        "instrumentalness": 0.153619571,
+        "liveness": 0.16677399999999995,
+        "valence": 0.4102860000000001,
+        "tempo": 118.99846000000001
+    },
+    "summer": {
+        "danceability": 0.6589,
+        "energy": 0.74768,
+        "acousticness": 0.12606342,
+        "instrumentalness": 0.06706780780000003,
+        "liveness": 0.19160200000000002,
+        "valence": 0.5489939999999999,
+        "tempo": 121.76453999999998
+    },
+    "techno": {
+        "danceability": 0.7055199999999999,
+        "energy": 0.71414,
+        "acousticness": 0.04225125539999999,
+        "instrumentalness": 0.7297926000000001,
+        "liveness": 0.13351599999999997,
+        "valence": 0.36535599999999996,
+        "tempo": 129.88532
+    },
+    "work-out": {
+        "danceability": 0.6668999999999999,
+        "energy": 0.7732399999999999,
+        "acousticness": 0.07154757799999999,
+        "instrumentalness": 0.030566088,
+        "liveness": 0.19729599999999994,
+        "valence": 0.6109599999999997,
+        "tempo": 125.77969999999996
+    }
+}
