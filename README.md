@@ -17,6 +17,7 @@ What things you need to install the software and how to install them
 ```
 pip3 install spotipy
 pip3 install numpy
+sudo apt-get install python3-tk
 ```
 
 ## Built With
