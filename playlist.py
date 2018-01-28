@@ -37,9 +37,9 @@ if __name__ == '__main__':
 	image = 'room.jpg'
 	curr_img_tags = get_image_tags(image)
 	spot_tags = tag_to_mood(curr_img_tags)
-	genre = generateGenre(spot_tags)
-	print(genre)
-	track_list = recommendedList(genre, 5)
+	genre_list = generateGenre(spot_tags)
+	track_list = recommendedList(genre_list, 5)
+	print(genre_list)
 	id = playlistCreate()
 	playlistAdd(id, track_list)
 	webbrowser.open('https://open.spotify.com/user/' + username + '/playlist/' + id)

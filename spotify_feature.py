@@ -13,7 +13,7 @@ spot_tags = []
 
 # generate genre
 
-def generateGenre(spot_tags, list_len=1):
+def generateGenre(spot_tags, list_len=2):
 	infile = open('proper_avg_gen.json', 'r')
 	f = json.load(infile)
 
@@ -52,8 +52,8 @@ def generateGenre(spot_tags, list_len=1):
 
 # generate recommended list based on genre
 
-def recommendedList(genre, limit=10):
-	recommendations_dict = sp.recommendations(seed_genres = [genre], limit = limit)
+def recommendedList(genre_list, limit=10):
+	recommendations_dict = sp.recommendations(seed_genres = genre_list, limit = limit)
 	data_list = recommendations_dict['tracks']
 	track_list = [0] * limit
 	i=0
