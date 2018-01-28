@@ -1,4 +1,4 @@
-import spotipy, jsonreader, json, sys
+import spotipy, jsonreader, json, sys, os, webbrowser
 from spotipy.oauth2 import SpotifyClientCredentials
 import spotipy.util as util
 import numpy as np
@@ -6,7 +6,6 @@ from tagtospot import tag_to_mood
 from analyse_image import get_image_tags
 from spotify_feature import generateGenre
 from spotify_feature import recommendedList
-import os
 
 scope = 'playlist-read-private playlist-modify-private playlist-read-collaborative'
 username = 'zain.patel6'
@@ -35,7 +34,7 @@ def playlistAdd(created_playlist_id, tracks_list):
 	return None
 
 if __name__ == '__main__':
-	image = os.path.basename(sys.argv[1])
+	image = 'room.jpg'
 	curr_img_tags = get_image_tags(image)
 	spot_tags = tag_to_mood(curr_img_tags)
 	genre = generateGenre(spot_tags)
@@ -43,5 +42,6 @@ if __name__ == '__main__':
 	track_list = recommendedList(genre, 5)
 	id = playlistCreate()
 	playlistAdd(id, track_list)
+	webbrowser.open('https://open.spotify.com/user/' + username + '/playlist/' + id)
 
 
