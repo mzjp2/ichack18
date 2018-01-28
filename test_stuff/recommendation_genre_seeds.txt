@@ -9,7 +9,6 @@ electronic
 gospel
 guitar
 happy
-heavy-metal
 house
 metal
 movies
@@ -18,11 +17,6 @@ party
 piano
 pop
 punk
-reggae
-road-trip
-rock
-rockabilly
-romance
 sad
 salsa
 sleep

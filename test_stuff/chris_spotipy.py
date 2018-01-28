@@ -7,11 +7,10 @@ sp = spotipy.Spotify(client_credentials_manager=client_credentials_manager)
 
 despacito = '5CtI0qwDJkDQGwXD1H1cLb'
 
-
+"""
 uri = ''
 anal = sp.audio_features('5CtI0qwDJkDQGwXD1H1cLb')
 
-"""
 f = open('spotify_tags.txt', 'w')
 
 for key in anal[0].keys():
@@ -21,14 +20,14 @@ f.close()
 
 
 print(sp.recommendation_genre_seeds())
+"""
 
-f = open('recommendation_genre_seeds.txt', 'w')
+f = open('recommendation_genre_seeds2.txt', 'w')
 
 for genre in sp.recommendation_genre_seeds()['genres']:
 	f.write(genre + "\n")
 
 f.close()
-"""
 
 
 
