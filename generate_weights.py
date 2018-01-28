@@ -30,7 +30,7 @@ for image_file in song_examples:
 	for song_id in song_examples[image_file]["song_ids"]:
 		song_examples[image_file]["song_ids"][song_id] = sp.audio_features(song_id)[0]
 		print(song_examples[image_file]["song_ids"][song_id])
-		time.sleep(0.5) # Wait to avoid Spotify API rate limiting
+		#time.sleep(0.5) # Wait to avoid Spotify API rate limiting
 		"""if song_examples[image_file]["song_ids"][song_id] == None:
 			# Dumb workaround
 			print("Replace with dummy id that gives stupid weights but idk how to fix this")
