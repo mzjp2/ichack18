@@ -11,6 +11,9 @@ spot_tags = []
 # generate genre
 
 def generateGenre(spot_tags):
+	f = json.load('averaged_genres.json')
+
+
 	return 'piano'
 
 # generate recommended list based on genre
@@ -58,9 +61,42 @@ def averageTags(tracks_features_list):
 
 	return tag_values
 
-if __name__ == '__main__':
+if __name__ == '__main_':
 	genre = generateGenre(spot_tags)
 	track_list = recommendedList(genre)
 	feature = dumpFeatures(track_list)
 	averaged_tag = averageTags(feature)
 	print(averaged_tag)
+
+if __name__ == '__main_':
+	genres_txt = open('genre.txt', 'r')
+	genre_list = []
+
+	for genre in genres_txt.readlines():
+		s = genre.split("\n")[0]
+		genre_list.append(s)
+
+	genres_avg_dict = {}
+
+	for genre in genre_list:
+		print(genre)
+		track_list = recommendedList(genre, 50)
+		feature = dumpFeatures(track_list, 50)
+		averaged_tag = averageTags(feature)
+		genres_avg_dict[genre] = averaged_tag
+
+	with open('averaged_genres.json', 'w') as outfile:
+		json.dump(genres_avg_dict, outfile, indent=4)
+
+if __name__ == '__main__':
+	joes_tags = {
+        "danceability": 0.56308,
+        "energy": 0.48857999999999996,
+        "acousticness": 0.5142559999999999,
+        "instrumentalness": 0.05863913239999997,
+        "liveness": 0.16398000000000004,
+        "valence": 0.6124100000000001,
+        "tempo": 117.40937999999998
+    }
+
+    print(generateGenre(joes_tags))
