@@ -19,19 +19,21 @@ class Application(tk.Frame):
         self.create_widgets()
 
     def create_widgets(self):
-        self.hi_there = tk.Button(self)
+        self.hi_there = tk.Button(self, height = 10, width = 25)
         self.hi_there["text"] = "Team SSA Image to Playlist"
         self.hi_there["command"] = self.say_hi
         self.hi_there.pack(side="top")
+        self.hi_there["font"] = ("Helvetica", 16)
 
         self.quit = tk.Button(self, text="Upload Image", fg="red",
-                              command=root.destroy)
+                              command=root.destroy, height = 10, width = 25, font = ("Helvetica", 16))
         self.quit.pack(side="bottom")
 
     def say_hi(self):
         print("Made by Christopher Smith, Joe Rosenberg, Khalid Hassan and Zain Patel")
 
 root = tk.Tk()
+root.geometry("1000x1000")
 app = Application(master=root)
 app.mainloop()
 filename = askopenfilename()
