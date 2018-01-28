@@ -1,4 +1,0 @@
-if (self.CavalryLogger) { CavalryLogger.start_js(["3fkKv"]); }
-
-__d("FBVertexPagesUtils",["CSS","DOMQuery","Event"],(function a(b,c,d,e,f,g){var h={initDescriptionCard:function i(j,k,l){c("CSS").hide(k);c("CSS").hide(l);var m=c("DOMQuery").scry(j,"a.see_more_link")[0];if(m)c("Event").listen(m,"click",function(){c("CSS").show(k);c("CSS").show(l)})}};f.exports=h}),null);
-__d("VertexScaledImageWithFallback",["CSS","DOMQuery"],(function a(b,c,d,e,f,g){f.exports={handleFallback:function h(i,j){var k=c("DOMQuery").find(i,"img"),l=new Image(),m=function(n){if(l.width<=1||l.height<=1){c("CSS").hide(i);c("CSS").show(j)}}.bind(this);l.onload=m;l.onerror=m;l.src=k.src}}}),null);
