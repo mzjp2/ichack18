@@ -64,7 +64,16 @@ relevant_features = {
 	}
 
 # Define initial dict of tags to weights
-tag_weights = {tag:relevant_features for tag in unique_tags}
+tag_weights = {tag:{
+	"danceability": 0.0,
+	"energy": 0.0,
+	"loudness": 0.0,
+	"acousticness": 0.0,
+	"instrumentalness": 0.0,
+	"liveness": 0.0,
+	"valence": 0.0,
+	"tempo": 0.0
+	} for tag in unique_tags}
 
 # Iterate through all unique CV tags and calculate running average for each Spotify 
 # audio analysis feature
@@ -73,6 +82,7 @@ for tag in unique_tags:
 
 	for image_file in song_examples:
 		if tag in song_examples[image_file]["image_data"]["tags"]:
+			print(tag + " in " + image_file)
 			# Update running averages with data from sound analyses
 			for song_id in song_examples[image_file]["song_ids"]:
 				for song_feature, value in relevant_features.items():
