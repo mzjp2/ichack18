@@ -1,6 +1,8 @@
 import spotipy, jsonreader, json
 from spotipy.oauth2 import SpotifyClientCredentials
 import numpy as np
+from tagtospot import tag_to_mood
+from analyse_image import get_image_tags
 
 # authentication stuff
 
@@ -14,8 +16,6 @@ spot_tags = []
 def generateGenre(spot_tags):
 	infile = open('averaged_genres.json', 'r')
 	f = json.load(infile)
-
-
 
 
 	genres_nparrays = {}
@@ -116,8 +116,14 @@ if __name__ == '__main_':
 	with open('averaged_genres.json', 'w') as outfile:
 		json.dump(genres_avg_dict, outfile, indent=4)
 
-
-
-if __name__ == '__main__':
 	joes_tags = {"danceability":0.5035, "energy": 0.3688, "acousticness":0.61967, "instrumentalness": 0.015, "liveness": 0.189796, "valence": 0.36, "tempo":117.2}
 	print(generateGenre(joes_tags))
+	
+	image = 'room.jpg'
+	curr_img_tags = get_image_tags(image)
+	spot_tags = tag_to_mood(curr_img_tags)
+	genre = generateGenre(spot_tags)
+	print(genre)
+	track_list = recommendedList(genre, 5)
+	print(track_list)
+
