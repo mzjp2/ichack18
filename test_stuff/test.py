@@ -8,7 +8,7 @@ import jsonreader
 # **********************************************
 
 # Replace the accessKey string value with your valid access key.
-accessKey = jsonreader.mscv_key
+accessKey = jsonreader.mslang_key
 print(accessKey)
 # Replace or verify the region.
 #
@@ -39,7 +39,5 @@ documents = { 'documents': [
 
 print('Please wait a moment for the results to appear.\n')
 
-result = GetLanguage (documents)
-print(result)
-print(json.loads(result))
-print(json.dumps(json.loads(result), indent=4))
+result = json.loads(str(GetLanguage (documents))[2:-1])
+print (json.dumps(result, indent=4))
