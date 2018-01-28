@@ -34,7 +34,7 @@ def playlistAdd(created_playlist_id, tracks_list):
 	return None
 
 if __name__ == '__main__':
-	image = 'room.jpg'
+	image = 'bookshelf.jpg'
 	curr_img_tags = get_image_tags(image)
 	spot_tags = tag_to_mood(curr_img_tags)
 	genre = generateGenre(spot_tags)
