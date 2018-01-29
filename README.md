@@ -6,9 +6,9 @@ We aim to take a picture and generate appropriate background music for the scene
 
 Clone the repo and install the requirements, then run 
 ```
-python3 interface.py
+python3 playlist.py "image"
 ```
-and upload an image from your local machine.
+where image is the name of an image file in the same directory as playlist.py, e.g "room.jpg".
 
 ### Prerequisites
 
