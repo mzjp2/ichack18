@@ -8,7 +8,6 @@ from spotify_feature import generateGenre
 from spotify_feature import recommendedList
 
 scope = 'playlist-read-private playlist-modify-private playlist-read-collaborative'
-username = 'zain.patel6'
 
 token = util.prompt_for_user_token(username, scope, 
 									client_id=jsonreader.spotify_client_id,
@@ -42,6 +41,7 @@ def playlistAdd(created_playlist_id, tracks_list):
 
 if __name__ == '__main__':
 	image = os.path.basename(sys.argv[1])
+	username = input("Please enter your username")
 	curr_img_tags = get_image_tags(image)
 	spot_tags = tag_to_mood(curr_img_tags)
 	genre_list = generateGenre(spot_tags)
