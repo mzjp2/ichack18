@@ -8,7 +8,7 @@ Clone the repo and install the requirements, then run
 ```
 python3 playlist.py "image"
 ```
-where image is the name of an image file in the same directory as playlist.py, e.g "room.jpg".
+where image is the name of an image file in the same directory as playlist.py, e.g "room.jpg". Then enter your username and allow access to your account in the browser window that opens up. Copy the URL of the redirected URL into the console and press enter. A new playlist in your account will be created. 
 
 ### Prerequisites
 
